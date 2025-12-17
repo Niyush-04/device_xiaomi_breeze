@@ -1,4 +1,12 @@
 <manifest version="4.0" type="device" target-level="6">
+    <hal format="aidl">
+        <name>android.hardware.graphics.allocator</name>
+        <fqname>IAllocator/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.graphics.mapper</name>
+        <fqname>IMapper/default</fqname>
+    </hal>
     <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
