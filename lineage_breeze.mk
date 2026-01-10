@@ -13,8 +13,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit common lineage configurations
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-$(call inherit-product, vendor/lineage/config/BoardConfigReservedSize.mk)
-
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/breeze/device.mk)
 
@@ -36,3 +34,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Mistos
+WITH_GMS := true
+MISTOS_MAINTAINER := Niyush
+MIST_BUILD_TYPE := OFFICIAL
+TARGET_USES_PICO_GAPPS := true

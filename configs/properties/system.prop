@@ -15,3 +15,14 @@ persist.vendor.sensors.enable.mag_filter=true
 
 # WiFi display
 persist.debug.wfd.enable=1
+
+# MistOS
+ro.mist.display=1080 x 2400, 120 hz
+ro.mist.battery=5030mah
+ro.mist.soc=Snapdragon® 4 Gen 2 AE
+ro.mist.camera=108MP + 2MP
+ro.mist.front=13MP
+ro.mist.platform=SM4450
+ro.mist.screen=6.79' IPS LCD
+ro.mist.device.name=Poco M6 Plus | Redmi 13 5G
+

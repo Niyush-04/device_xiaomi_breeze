@@ -1,0 +1,20 @@
+[
+  {
+    "remote"     : "github",
+    "repository" : "Niyush-04/vendor_xiaomi_breeze",
+    "target_path": "vendor/xiaomi/breeze",
+    "branch"     : "mist"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "Niyush-04/device_xiaomi_breeze-kernel",
+    "target_path": "device/xiaomi/breeze-kernel",
+    "branch"     : "mist"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch"     : "lineage-23.0"
+  }
+]
