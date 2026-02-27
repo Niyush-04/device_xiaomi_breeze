@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "Launcher3OverlayBreeze",
+    name: "LauncherOverlayBreeze",
     product_specific: true,
 }
